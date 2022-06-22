@@ -1,6 +1,8 @@
 # sam_bot motion with nav2
 This is a simulation of a differential drive robot capable of navigating it's way through obstacles in a virtual world. It uses ROS Navigation stack [Nav2](https://navigation.ros.org/) to receive goal position in [rviz](http://wiki.ros.org/rviz) and find it's way to that place in the [Gazebo Simulator](https://gazebosim.org/home). This project uses the "Kitchen Dining" world provided by osrf. I've included the dockerfile if someone wants to run it on [docker](https://docs.docker.com/engine/install/ubuntu/) since ROS installation is cumbersome.
 
+Demonstration: [YouTube](https://www.youtube.com/watch?v=Y-xc0Q64QGI)
+
 Make sure `~/.gazebo/models` contains all the models provided [here](https://github.com/osrf/gazebo_models). All the dependencies required for it are installed by the DOCKERFILE.
 
 Add the `sam_bot_nav2` package inside the src folder of your workspace.
